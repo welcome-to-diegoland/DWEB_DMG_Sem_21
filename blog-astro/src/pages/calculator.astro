@@ -5,14 +5,18 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
+<!doctype html>
 <html lang="en">
-  <head>
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Simple</title>
     <link rel="stylesheet" href="/calculadora/estilos.css"> <!-- Ruta al archivo CSS -->
-  </head>
-  <body>
+	</head>
+	<body>
+		<Header />
+		<main>
     <div class="calculadora">
       <div class="calculadora__pantalla" id="pantalla">0</div>
 
@@ -39,5 +43,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
     </div>
 
     <script src="/calculadora/script.js"></script> <!-- Ruta al archivo JS -->
-  </body>
+
+    
+		</main>
+		<Footer />
+	</body>
 </html>
