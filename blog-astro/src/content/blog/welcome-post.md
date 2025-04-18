@@ -1,6 +1,6 @@
 ---
 title: "Bienvenida al Blog de Diseño Editorial"
-pubDate: "2025-04-18"
+pubDate: "2025-04-17"
 description: "Una introducción al fascinante mundo del diseño editorial y su importancia en la comunicación visual."
 ---
 
