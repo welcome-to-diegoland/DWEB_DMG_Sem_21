@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Fondo suave claro para contraste */
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Fuentes modernas */
+}
+
+/* Contenedor de la calculadora */
+.calculadora {
+    background-color: #ffffff; /* Fondo blanco para resaltar los botones */
+    border-radius: 12px;
+    width: 320px; /* Ancho consistente */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Espacio entre la pantalla y los botones */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pantalla de la calculadora */
+.calculadora__pantalla {
+    width: 100%;
+    height: 70px; /* Pantalla más grande */
+    text-align: right;
+    padding: 15px;
+    font-size: 2rem; /* Tamaño de texto más grande */
+    border: none;
+    border-radius: 8px;
+    background-color: #F37021; /* Naranja Hermes */
+    color: #ffffff; /* Texto blanco */
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+/* Contenedor de los botones */
+.calculadora__botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/* Botones generales */
+.calculadora__boton {
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #F37021; /* Naranja Hermes predominante */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #ffffff; /* Texto blanco */
+    font-weight: normal; /* Los números no están en negrita por defecto */
+}
+
+.calculadora__boton:hover {
+    background-color: #e74c3c; /* Rojo suave al pasar el ratón */
+}
+
+/* Botones numéricos en negrita */
+.calculadora__boton--numero {
+    font-weight: bold; /* Negrita para los botones numéricos */
+}
+
+/* Botones de operaciones */
+.calculadora__boton--operacion {
+    background-color: #D5006D; /* Rosa Mexicano para las operaciones */
+    font-weight: bold;
+}
+
+.calculadora__boton--operacion:hover {
+    background-color: #F50057; /* Rosa Mexicano brillante al pasar el ratón */
+}
+
+/* Botón igual */
+.calculadora__boton--igual {
+    background-color: #E74C3C; /* Rojo vibrante para el botón igual */
+    font-weight: bold;
+    color: white;
+}
+
+.calculadora__boton--igual:hover {
+    background-color: #C0392B; /* Rojo intenso al pasar el ratón */
+}
+
+/* Botones grandes */
+.calculadora__boton--grande {
+    grid-column: span 2; /* Ocupa 2 columnas */
+}
+
+/* Botón de reinicio (C) */
+.calculadora__boton--clear {
+    background-color: #D4571D; /* Naranja oscuro para C */
+    color: white;
+    font-weight: bold;
+}
+
+.calculadora__boton--clear:hover {
+    background-color: #FF6F00; /* Naranja brillante al pasar el ratón */
+}

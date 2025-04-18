@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333333;
+}
+
+.calculadora {
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 320px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+.calculadora__pantalla {
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    padding: 15px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333333;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+.calculadora__botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.calculadora__boton {
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #333333;
+    font-weight: normal;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.calculadora__boton:hover {
+    background-color: #d0d0d0;
+}
+
+.calculadora__boton--numero {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.calculadora__boton--numero:hover {
+    background-color: #e0e0e0;
+}
+
+.calculadora__boton--operacion {
+    background-color: #d4af37;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.calculadora__boton--operacion:hover {
+    background-color: #c0a030;
+}
+
+.calculadora__boton--igual {
+    background-color: #333333;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.calculadora__boton--igual:hover {
+    background-color: #444444;
+}
+
+.calculadora__boton--grande {
+    grid-column: span 2;
+}
+
+.calculadora__boton--clear {
+    background-color: #a52a2a;
+    color: white;
+    font-weight: bold;
+}
+
+.calculadora__boton--clear:hover {
+    background-color: #8b0000;
+}
