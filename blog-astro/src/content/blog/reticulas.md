@@ -1,9 +1,9 @@
 ---
-title: "El uso de las retículas en el diseño editorial"
+title: "Grid Systems"
 pubDate: 2025-04-18
 description: "Cómo las retículas ayudan a estructurar el contenido de manera ordenada y visualmente atractiva."
 author: "Diego Medel"
-image: "/blog-placeholder-3.jpg"
+heroImage: "/assets/grid-head.jpg"
 ---
 
 En el diseño editorial, las **retículas** son una herramienta esencial para organizar el contenido de manera coherente y visualmente atractiva. Son un conjunto de líneas guía que ayudan a alinear los elementos de la página, como texto, imágenes y gráficos, creando una estructura ordenada y armoniosa.

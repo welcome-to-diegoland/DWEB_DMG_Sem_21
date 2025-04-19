@@ -1,9 +1,9 @@
 ---
-title: "El poder de la tipografía"
+title: "Type's Anatomy"
 pubDate: 2025-04-18
 description: "Una guía básica sobre cómo elegir y combinar tipografías en diseño editorial."
 author: "Diego Medel"
-image: "/blog-placeholder-1.jpg"
+heroImage: "/assets/typography-head.jpg"
 ---
 
 La tipografía es uno de los pilares más importantes en el diseño editorial. Elegir una fuente adecuada no solo aporta estilo, sino que mejora la legibilidad del contenido y la experiencia general del lector. A lo largo de la historia, las tipografías han sido seleccionadas cuidadosamente para transmitir el tono y la intención de los textos.

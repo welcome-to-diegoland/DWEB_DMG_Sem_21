@@ -1,9 +1,9 @@
 ---
-title: "El tracking en el diseño tipográfico"
+title: "Tracking vs Kerning"
 pubDate: 2025-04-18
 description: "Cómo el tracking influye en la legibilidad y estética del texto en diseño editorial."
 author: "Diego Medel"
-image: "/blog-placeholder-2.jpg"
+heroImage: "/assets/tracking-head.jpg"
 ---
 
 El **tracking** en diseño tipográfico es el ajuste de la distancia entre todas las letras de una palabra o bloque de texto. A diferencia del **kerning**, que ajusta el espacio entre pares específicos de letras, el tracking afecta el espacio en todo el texto. Este elemento tiene un gran impacto en la legibilidad, la estética y la percepción general de una pieza tipográfica.

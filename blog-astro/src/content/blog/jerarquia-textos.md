@@ -1,9 +1,9 @@
 ---
-title: "La jerarquía tipográfica en los textos"
+title: "Typographic Hierarchy"
 pubDate: 2025-04-18
 description: "La importancia de establecer una jerarquía visual en los textos para mejorar la comunicación."
 author: "Diego Medel"
-image: "/blog-placeholder-4.jpg"
+heroImage: "/assets/hierarchy-head.jpg"
 ---
 
 La **jerarquía tipográfica** es un principio clave en el diseño editorial que establece un orden visual claro entre los diferentes elementos del texto. Esto permite que los lectores comprendan rápidamente la estructura del contenido y le den el enfoque adecuado a cada sección.
